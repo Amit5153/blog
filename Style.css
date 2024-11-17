@@ -1,74 +1,77 @@
-/* General Reset */
-body, h1, h2, h3, p, ul {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
+/* General Styles */
+body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
     color: #333;
-  }
-  
-  .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
   }
   
   /* Header */
   .header {
-    background-color: #004aad;
-    color: #fff;
-    padding: 20px 0;
+    background-color: #4CAF50;
+    color: white;
     text-align: center;
+    padding: 20px 0;
   }
   
-  .header h1 {
-    font-size: 2.5rem;
+  .header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
   }
   
-  .header p {
-    font-size: 1rem;
-    margin-top: 10px;
+  .header .logo img {
+    width: 5px;
+    height: 5px;
   }
   
-  /* Blog Post */
+  .header .logo h1 {
+    font-size: 0.5rem;
+  }
+  
+  /* Blog Article */
   .blog-post {
-    background: #fff;
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
     padding: 20px;
-    margin: 20px 0;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
   .blog-post h2 {
-    font-size: 1.8rem;
-    color: #799dcc;
-  }
-  
-  .blog-post p, .blog-post ul {
-    margin-top: 10px;
-  }
-  
-  .blog-post ul {
-    list-style-type: disc;
-    padding-left: 20px;
+    color: #4CAF50;
+    margin-bottom: 10px;
   }
   
   .blog-post img.banner {
     width: 100%;
-    border-radius: 8px;
-    margin: 15px 0;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  .blog-post p {
+    margin: 10px 0;
+  }
+  
+  .blog-post ul {
+    margin: 10px 0;
+    padding-left: 20px;
+  }
+  
+  .blog-post ul li {
+    margin: 5px 0;
   }
   
   /* Footer */
-  .footer {
-    background-color: #95aecf;
-    color: #fff;
+  footer {
     text-align: center;
+    background: #333;
+    color: white;
     padding: 10px 0;
     margin-top: 20px;
   }
